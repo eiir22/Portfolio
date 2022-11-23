@@ -30,10 +30,13 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 0 2.5em 0 2.5em;
+    max-width: 1400px;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    background-color: white;
 }
 
 /* Header */
@@ -43,10 +46,18 @@ body {
     justify-content: space-between;
 }
 
+.header {
+    border-bottom: 1px solid grey;
+}
+
 /* Title */
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
+.title {
+    padding: 1.6em 3em 1em 0;
+}
+
+.logo {
+    padding: 1em 3em 1em 0;
 }
 
 @media (max-width: 767px) {
@@ -74,7 +85,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid grey;
 }
 
 .footer a {
@@ -97,10 +108,13 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
+    margin-top: 0.9em;
     font-weight: bold;
 }
 
