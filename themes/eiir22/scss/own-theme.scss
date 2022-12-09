@@ -1,0 +1,195 @@
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html {
+    height: 100%;
+}
+
+/* Body */
+body {
+    height: 100%;
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    color: #444;
+}
+
+/* Header */
+.header {
+    border-bottom: 1px solid $accent-alternative-color;
+    background-color: $background-alternative-color;
+    flex: 0 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+.title {
+    padding: 1.6em 3em 1em 0;
+    color: $title-color;
+
+    h1 {
+        color: $accent-color;
+    }
+
+    p {
+        padding-top: 0.2em;
+        padding-bottom: 1em;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.logo {
+    padding: 1em 3em 1em 0;
+}
+
+@media (max-width: 767px) {
+    .title {
+        min-width: 50%;
+        padding: 1em 1em 1em 0;
+    }
+    
+    .logo {
+        max-width: 35%;
+        padding-top: 1.8em;
+        padding-right: 0;
+        padding: 1em 1em 1em 0;
+    }
+}
+
+/* Main */
+.main {
+    flex: 1 0 auto;
+    padding: 0 2.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    img {
+        max-width: 29%;
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        max-width: 100%;
+        padding: 1em;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $accent-alternative-color;
+    background-color: $background-alternative-color;
+    min-height: 9em;
+    flex: 0 0 auto;
+    margin-top: 1.5em;
+
+    a {
+        color: #222;
+    }
+
+    div {
+        padding-left: 1em;
+        padding-top: 2em;
+    }
+
+    .social {
+        font-size: 3rem;
+        padding: 1em 1em 1em 0;
+    }
+}
+
+/* Typografy */
+* {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+table {
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+}
+
+p {
+    padding-top: 1em;
+}
+
+li {
+    padding-top: 0.5em;
+}
