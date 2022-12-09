@@ -4,5 +4,5 @@ Tagline: My portfolio.
 Social:
     - title: Link till mitt github repo.
       url: https://github.com/eiir22/Portfolio
-      icon: github
+      icon: fab fa-github
 ---
